@@ -9,7 +9,6 @@ layout: default
 <script type="text/javascript" src="https://rockaway-ocean-3668-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
-        alert('here');
      $Lightning.use("c:requestForInformationApp", function() {
         $Lightning.createComponent(
              "c:requestForInformationForm",
@@ -20,6 +19,6 @@ layout: default
              }
           );
         },
-       'https://https://rockaway-ocean-3668-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js/'
+       'https://https://rockaway-ocean-3668-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js'
       );
 </script>
