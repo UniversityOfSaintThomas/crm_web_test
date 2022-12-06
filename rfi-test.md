@@ -20,6 +20,6 @@ layout: default
              }
       );
     },
-    'https://rockaway-ocean-3668-dev-ed.scratch.my.site.com/Admissions/'
+    'https://rockaway-ocean-3668-dev-ed.scratch.my.site.com/Admissions'
 );
 </script>
