@@ -19,6 +19,6 @@ layout: default
              }
           );
         },
-       'https://https://rockaway-ocean-3668-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js'
+       'https://rockaway-ocean-3668-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js'
       );
 </script>
