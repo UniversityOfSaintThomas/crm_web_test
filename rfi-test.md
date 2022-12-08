@@ -17,7 +17,7 @@ layout: default
              "lightning",
              function(cmp) {
                  console.log("LWC Component Created.");
-             }
+             } 
       );
     },
     'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
