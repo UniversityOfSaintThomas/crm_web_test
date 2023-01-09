@@ -15,7 +15,6 @@ $Lightning.use("c:requestForInformationApp", function() {
              } 
       );
     },
-    'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions',
-    ’session-id'
+    'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
 );
 </script>
