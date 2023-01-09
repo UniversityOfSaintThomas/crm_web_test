@@ -1,4 +1,4 @@
-# RFI-Test page
+# RFI Testing Page
 
 <div id="lightning">Loading...</div>
 
