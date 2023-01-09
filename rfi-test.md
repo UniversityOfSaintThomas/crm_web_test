@@ -1,6 +1,6 @@
 # RFI Testing Page
 
-<div id="lightning">Loading...</div>
+<div id="RFI-HERE">Loading...</div>
 
 <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce.com/lightning/lightning.out.js"></script>
 
@@ -10,7 +10,7 @@
         $Lightning.createComponent(
              "c:requestForInformationForm",
              {"rfi_controller":"RFI Controller 0000"},
-             "lightning",
+             "RFI-HERE",
              function(cmp) {
                  console.log("LWC Component Created.");
              } 
