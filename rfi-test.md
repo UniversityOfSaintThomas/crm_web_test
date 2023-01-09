@@ -1,10 +1,6 @@
----
-layout: default
----
+# RFI-Test page
 
-<h1>RFI-Test page</h1>
-
-<div id="lightning"></div>
+<div id="lightning">Loading...</div>
 
 <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce.com/lightning/lightning.out.js"></script>
 
