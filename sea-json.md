@@ -7,7 +7,7 @@ fetch('https://uofstthomas.secure.force.com/services/apexrest/summit/summitevent
     .then((json) => {
         json.forEach(eventItem => {
             console.log(eventItem.title);
-            let eventTitle = document.create('p');
+            let eventTitle = document.createElement('p');
             eventTitle.textContent = eventItem.title;
             eventListWrapper.appendChild(eventTitle);
         });
