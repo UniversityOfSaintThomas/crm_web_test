@@ -6,7 +6,7 @@ fetch('https://uofstthomas.secure.force.com/services/apexrest/summit/summitevent
             console.log(eventItem.title);
             let eventTitle = document.createElement('p');
             eventTitle.textContent = eventItem.title;
-            if(eventItem.location === 'Off-Campus') {
+            if(eventItem.locationType === 'Off-Campus') {
                 eventTitle.classList.add('offCampus');
             }
             eventListWrapper.appendChild(eventTitle);
