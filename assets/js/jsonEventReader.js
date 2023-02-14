@@ -1,5 +1,5 @@
 let eventListWrapper = document.getElementById('eventList');
-fetch('https://uofstthomasmn.my.site.com/Admissions/services/apexrest/summit/summiteventsfeed?feedType=eventList')
+fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/summiteventsfeed?feedType=eventList')
     .then((response) => response.json())
     .then((json) => {
         json.forEach(eventItem => {
