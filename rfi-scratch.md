@@ -2,7 +2,7 @@
 
 <div id="lightning"></div>
 
-<script type="text/javascript" src="https://goldengate-node-9163-dev-ed.scratch.my.site.com/lightning/lightning.out.js"></script>
+<script type="text/javascript" src="https://agility-fun-1242-dev-ed.scratch.my.site.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
 $Lightning.use("c:requestForInformationApp", function() {
