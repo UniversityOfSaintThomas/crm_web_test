@@ -15,6 +15,6 @@ $Lightning.use("c:requestForInformationApp", function() {
              } 
       );
     },
-    'https://goldengate-node-9163-dev-ed.scratch.my.site.com//Admissions'
+    'https://agility-fun-1242-dev-ed.scratch.my.site.com/Admissions'
 );
 </script>
