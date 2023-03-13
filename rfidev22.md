@@ -1,6 +1,4 @@
 # RFI from Dev 22
-https://uofstthomasmn--edadev22.sandbox.my.site.com/Admissions
-
 <div id="lightning"></div>
 
 <script type="text/javascript" src="https://uofstthomasmn--edadev22.sandbox.my.site.com/lightning/lightning.out.js"></script>
