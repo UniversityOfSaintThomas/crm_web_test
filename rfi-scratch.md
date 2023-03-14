@@ -1,8 +1,7 @@
 # RFI from Scratch Org
-https://velocity-energy-7420-dev-ed.scratch.my.site.com/Admissions
 
 <div id="lightning"></div>
-https://velocity-energy-7420-dev-ed.scratch.my.site.com
+
 <script type="text/javascript" src="https://data-agility-470-dev-ed.scratch.my.site.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
