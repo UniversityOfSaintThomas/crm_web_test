@@ -1,6 +1,6 @@
 <div id="locateYourCounselorLWC"></div>
 <script type="text/javascript">
-    $Lightning.use("c:requestForInformationApp", 
+    $Lightning.use("c:locateYourCounselorWrapper", 
     function() {
         $Lightning.createComponent(
              "c:locateYourCounselorLWC",
