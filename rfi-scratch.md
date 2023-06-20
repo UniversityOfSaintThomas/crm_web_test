@@ -15,6 +15,6 @@ $Lightning.use("c:requestForInformationApp", function() {
              } 
       );
     },
-    'https://dream-java-4121-dev-ed.scratch.my.site.com/Admissions'
+    'https://nosoftware-ability-7887-dev-ed.scratch.my.site.com/Admissions'
 );
 </script>
