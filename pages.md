@@ -1,9 +1,20 @@
 # Test pages on this site
 This site tests public facing CRM assets when embedded on public Web sites.
 
-## RFI
+## RFIs
 [RFI - Scratch org](rfi-scratch.md)
 
-RFI - Staging
+[RFI - Staging](rfi-test2.md)
 
-RFI - Prod
+[RFI - Prod](rfi-test.md)
+
+## Locate your Counselor
+
+[LYC - Staging](locate.md)
+
+[LYC - Prod](locate-prod.md)
+
+
+## Summit Events App
+
+[Rest API Experiment](sea-json.md)
