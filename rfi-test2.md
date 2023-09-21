@@ -6,6 +6,7 @@
 
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", () => {
+        console.log('loaded');
         $Lightning.use("c:requestForInformationApp", 
             function() {
                 $Lightning.createComponent(
