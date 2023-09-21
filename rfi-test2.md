@@ -5,7 +5,6 @@
 <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
-document.addEventListener("DOMContentLoaded", () => {
 $Lightning.use("c:requestForInformationApp", 
     function() {
         $Lightning.createComponent(
@@ -19,5 +18,4 @@ $Lightning.use("c:requestForInformationApp",
     },
     'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
 );
-});
 </script>
