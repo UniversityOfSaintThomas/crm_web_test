@@ -8,6 +8,8 @@ This site tests public facing CRM assets when embedded on public Web sites.
 
 [RFI - Prod](rfi-test.md)
 
+[RFI - Staging 2](rfi-staging_test2.md)
+
 ## Locate your Counselor
 
 [LYC - Staging](locate.md)
