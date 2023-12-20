@@ -12,7 +12,6 @@ $Lightning.use("c:requestForInformationApp", function() {
              "lightning",
              function(cmp) {
                 console.log("LWC Component Created.");
-                $A.get('e.force:refreshView').fire();
              } 
       );
     },
