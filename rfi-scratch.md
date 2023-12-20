@@ -11,7 +11,8 @@ $Lightning.use("c:requestForInformationApp", function() {
              {"rfi_controller":"RFI Controller 0000"},
              "lightning",
              function(cmp) {
-                 console.log("LWC Component Created.");
+                console.log("LWC Component Created.");
+                $A.get('e.force:refreshView').fire();
              } 
       );
     },
