@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-## CRM external Web Test pages
+# CRM external Web Test pages
 
 This site is used to test external web pages (outside of Salesforce) that host CRM API integrations or Lightning out Lightning Web Components (LWC).
 
-# Page index
+# RFI
 
 [RFI - Scratch org](rfi-scratch.md)
 
