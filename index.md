@@ -21,6 +21,8 @@ This site is used to test external web pages (outside of Salesforce) that host C
 
 [LYC - Prod](locate-prod.md)
 
+[LYC DFC - Staging](locate-dfc-staging.md)
+
 
 ## Summit Events App
 
