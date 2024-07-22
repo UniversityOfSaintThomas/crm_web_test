@@ -7,7 +7,7 @@
     function() {
         $Lightning.createComponent(
              "c:locateYourCounselorLWCTesting",
-             {rfiType: "VETERAN"},
+             {rfiType: "TRANSFER"},
              "locateYourCounselor",
              function(cmp) {
                  console.log("LWC Component Created.");
