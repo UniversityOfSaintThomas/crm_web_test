@@ -6,7 +6,7 @@
     $Lightning.use("c:LocateYourCounselorWrapper", 
     function() {
         $Lightning.createComponent(
-             "c:locateYourCounselorLWCTesting",
+             "c:locateYourCounselorLWC",
              {rfiType: "international"},
              "locateYourCounselor",
              function(cmp) {
