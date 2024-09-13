@@ -9,7 +9,7 @@ This site is used to test external web pages (outside of Salesforce) that host C
 
 [RFI - Scratch org](rfi-scratch.md)
 
-[RFI - Staging](rfi-test2.md)
+[RFI - Staging](rfi-test-staging)
 
 [RFI - Prod](rfi-test.md)
 
