@@ -1,15 +1,14 @@
-# RFI-Test page 2
+# RFI-Test Staging
 
 <div id="lightning"></div>
 
 <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.site.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
-$Lightning.use("c:requestForInformationApp", 
-    function() {
+$Lightning.use("c:requestForInformationApp", function() {
         $Lightning.createComponent(
              "c:requestForInformationForm",
-             {"rfi_controller":"RFI Controller 0303"},
+             {"rfi_controller":"RFI Controller 0295"},
              "lightning",
              function(cmp) {
                  console.log("LWC Component Created.");
@@ -18,4 +17,4 @@ $Lightning.use("c:requestForInformationApp",
     },
     'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
 );
-</script> 
+</script>
