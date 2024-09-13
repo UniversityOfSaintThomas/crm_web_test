@@ -18,4 +18,4 @@ $Lightning.use("c:requestForInformationApp",
     },
     'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
 );
-</script>
+</script> 
