@@ -5,15 +5,16 @@
 <script type="text/javascript">
     $Lightning.use("c:TommieCaresLwcWrapper", 
     function() {
-        const queryString = window.location.search;
-        console.log(queryString);
-        
         $Lightning.createComponent(
              "c:tommieCaresLwc",
              {},
              "tommieCaresLwc",
              function(cmp) {
                  console.log("LWC Component Created.");
+
+                 const queryString = window.location.search;
+                console.log(queryString);
+                 
              } 
       );
     },
