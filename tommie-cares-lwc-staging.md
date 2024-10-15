@@ -7,7 +7,7 @@
     function() {
         $Lightning.createComponent(
              "c:tommieCaresLwc",
-             {urlBid: "100360449", urlSbid: "567", urlCrn: "910"},
+             {urlBid: "1003604499", urlSbid: "567", urlCrn: "910"},
              "tommieCaresLwc",
              function(cmp) {
                  console.log("LWC Component Created.");
