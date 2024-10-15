@@ -5,7 +5,7 @@
 <script type="text/javascript">
 
     const urlparam = window.location.href;
-    console.log("what is urlparam: "+urlparam;
+    console.log("what is urlparam: "+urlparam);
     
     $Lightning.use("c:TommieCaresLwcWrapper", 
     function() {
