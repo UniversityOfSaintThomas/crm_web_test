@@ -19,7 +19,7 @@
 let eventListWrapper = document.getElementById('eventList');
 
 <!-- fetch the event list from the SEA REST API -->
-fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/summiteventsfeed' 
+fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/summiteventsfeed?' 
     + new URLSearchParams({
         feedType : 'eventList'
     }).toString())
