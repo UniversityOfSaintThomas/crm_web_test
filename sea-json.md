@@ -27,9 +27,10 @@ fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/su
     .then((json) => {
         json.forEach(eventItem => {
             let eventTitle = document.createElement('p');
-            let eventLInk = document.createElement('a');
-            eventLInk.href = eventItem.eventUrl;
-            eventTitle.textContent = eventItem.title;
+            let eventLink = document.createElement('a');
+            eventLink.href = eventItem.eventUrl;
+            eventLink.textContent = eventItem.title;
+            eventTitle.appendChild(eventLink);
             if (eventItem.locationType === 'Off-Campus') {
                 eventTitle.classList.add('offCampus');
             }
