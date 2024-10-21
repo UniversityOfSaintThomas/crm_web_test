@@ -4,10 +4,10 @@
 
 <!-- Style scheets to adjust list look/feel -->
 <style>
-#eventList p {
+#eventList p a {
     color: blue;
 }
-#eventList p.offCampus {
+#eventList p.offCampus a{
     color: red;
 }
 </style>
@@ -19,6 +19,7 @@
 let eventListWrapper = document.getElementById('eventList');
 
 <!-- fetch the event list from the SEA REST API -->
+
 fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/summiteventsfeed?' 
     + new URLSearchParams({
         feedType : 'eventList'
@@ -27,9 +28,11 @@ fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/su
     .then((json) => {
         json.forEach(eventItem => {
             let eventTitle = document.createElement('p');
-            let eventLink = document.createElement('a');
-            eventLink.href = eventItem.eventUrl;
-            eventLink.textContent = eventItem.title;
+            if (!eventItem.eventClosed) {
+                eventTitle.innerHTML = `<a href="${eventItem.eventUrl}" target="_blank">${eventItem.title}</a>`;
+            } else {
+                eventTitle.textContent = eventItem.title;
+            }
             eventTitle.appendChild(eventLink);
             if (eventItem.locationType === 'Off-Campus') {
                 eventTitle.classList.add('offCampus');
