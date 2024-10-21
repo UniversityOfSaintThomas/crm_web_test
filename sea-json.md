@@ -33,7 +33,6 @@ fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/su
             } else {
                 eventTitle.textContent = eventItem.title;
             }
-            eventTitle.appendChild(eventLink);
             if (eventItem.locationType === 'Off-Campus') {
                 eventTitle.classList.add('offCampus');
             }
