@@ -9,8 +9,9 @@
     
     $Lightning.use("c:TommieCaresLwcWrapper", 
     function(paramUrl) {
-     const paramUrl = window.location.href;
-     console.log("paramUrl from outside script: "+paramUrl);
+        
+     //const paramUrl = window.location.href;
+     //console.log("paramUrl from outside script: "+paramUrl);
         
         $Lightning.createComponent(
              "c:tommieCaresLwc",
