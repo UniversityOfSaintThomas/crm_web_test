@@ -11,7 +11,7 @@
     function() {
         $Lightning.createComponent(
              "c:tommieCaresLwc",
-             {paramBId: "100436429", paramSBid: "", paramCrn: ""},
+             {paramBId: "100436429", paramSBid: "101317066", paramCrn: "42061"},
              "tommieCaresLwc",
              function(cmp) {
                  console.log("LWC Component Created.");
