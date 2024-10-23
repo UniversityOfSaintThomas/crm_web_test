@@ -5,7 +5,7 @@
 <script type="text/javascript">
 
     const paramUrl = window.location.href;
-    console.log("what is urlparam: "+paramUrl);
+    console.log("what is paramUrl: "+paramUrl);
     
     $Lightning.use("c:TommieCaresLwcWrapper", 
     function() {
