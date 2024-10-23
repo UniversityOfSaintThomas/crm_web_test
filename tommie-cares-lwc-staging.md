@@ -4,8 +4,8 @@
 
 <script type="text/javascript">
 
-    const urlparam = window.location.href;
-    console.log("what is urlparam: "+urlparam);
+    const paramUrl = window.location.href;
+    console.log("what is urlparam: "+paramUrl);
     
     $Lightning.use("c:TommieCaresLwcWrapper", 
     function() {
