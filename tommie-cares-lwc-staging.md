@@ -4,7 +4,7 @@
 
 <script type="text/javascript">
 
-    const paramUrl = window.location.href;
+    let paramUrl = window.location.href;
     console.log("paramUrl from outside script: "+paramUrl);
     
     $Lightning.use("c:TommieCaresLwcWrapper", 
