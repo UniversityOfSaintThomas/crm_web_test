@@ -15,6 +15,6 @@ $Lightning.use("c:requestForInformationApp", function() {
              } 
       );
     },
-    'platform-customer-73312-dev-ed.scratch.my.site.com/Admissions'
+    'https://platform-customer-73312-dev-ed.scratch.my.site.com/Admissions'
 );
 </script>
