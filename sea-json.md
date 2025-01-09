@@ -39,4 +39,5 @@ fetch('https://uofstthomasmn.my.salesforce-sites.com/services/apexrest/summit/su
             eventListWrapper.appendChild(eventTitle);
         });
     });
+
 </script>
