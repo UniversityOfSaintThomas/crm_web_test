@@ -15,7 +15,7 @@ This site is used to test external web pages (outside of Salesforce) that host C
 
 [RFI - Staging 2](rfi-staging_test2.md)
 
-[RFI - Virtual Tour](rfi-stagin-circuit.md)
+[RFI - Virtual Tour](rfi-staging-circuit.md)
 
 ## Locate your Counselor
 
