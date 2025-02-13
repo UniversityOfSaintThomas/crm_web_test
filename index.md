@@ -38,3 +38,6 @@ This site is used to test external web pages (outside of Salesforce) that host C
 
 [Tommie Cares LWC - Staging](tommie-cares-lwc-staging.md)
 
+## Misc Testing Pages
+[Lightning Record Picker - Staging](lightning_record_picker_staging.md)
+
