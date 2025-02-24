@@ -1,7 +1,7 @@
 <div id="tommieCaresNonFacultyLwc"></div>
 
 <!--    <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions/lightning/lightning.out.js"></script>-->
-<script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.site.com/lightning/lightning.out.js"></script>
+<script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
 
@@ -17,6 +17,6 @@
                 );
             },
             //'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
-            'https://uofstthomasmn--edastaging.sandbox.my.site.com'
+            'https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com'
         );
 </script>
