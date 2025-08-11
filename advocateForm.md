@@ -13,6 +13,6 @@
              } 
       );
     },
-    "https://efficiency-momentum-5351-dev-ed.scratch.my.site.com/s/"
+    "https://efficiency-momentum-5351-dev-ed.scratch.my.site.com/"
 );
 </script>
