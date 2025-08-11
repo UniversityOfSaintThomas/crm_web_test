@@ -41,4 +41,5 @@ This site is used to test external web pages (outside of Salesforce) that host C
 ## Misc Testing Pages
 
 [Lightning Record Picker - Staging](lightning_record_picker_staging.md)
+[Advocate Form](advocateForm.md)
 
