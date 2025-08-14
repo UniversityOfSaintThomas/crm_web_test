@@ -4,10 +4,13 @@
 <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
+    
+    const paramUrl = window.location.href;
+    
     $Lightning.use("c:CommunityOfConcernLwcWrapper", function() {
         $Lightning.createComponent(
              "c:communityOfConcernLwc",
-            {paramBId: "", paramSBid: "", paramCrn: "", paramUrl: ""},
+            {paramBId: "", paramSBid: "", paramCrn: "", paramUrl: paramUrl},
              {},
              "advocateForm",
              function(cmp) {
