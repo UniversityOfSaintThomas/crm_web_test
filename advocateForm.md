@@ -14,6 +14,5 @@
       );
     },
     "https://energy-site-8857-dev-ed.scratch.my.salesforce-sites.com"
-/"
 );
 </script>
