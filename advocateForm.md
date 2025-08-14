@@ -1,13 +1,13 @@
 <div id="advocateForm"></div>
 
-<!-- <script type="text/javascript" src="https://energy-site-8857-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js"></script> -->
-<script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com/lightning/lightning.out.js"></script>
+<script type="text/javascript" src="https://energy-site-8857-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js"></script>
+<!-- <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com/lightning/lightning.out.js"></script> -->
 
 <script type="text/javascript">
     
     const paramUrl = window.location.href;
 
-    $Lightning.use("c:CommunityOfConcernLwcWrapper",
+    $Lightning.use("c:TestAura",
         function () {
             $Lightning.createComponent(
                 "c:communityOfConcernLwc",
@@ -18,6 +18,6 @@
                 }
             );
         },
-    "https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com"
+    "https://energy-site-8857-dev-ed.scratch.my.salesforce-sites.com"
 );
 </script>
