@@ -14,6 +14,6 @@
              } 
       );
     },
-    "https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com/Admissions"
+    "https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com/"
 );
 </script>
