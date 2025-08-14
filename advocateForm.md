@@ -10,7 +10,7 @@
     $Lightning.use("c:CommunityOfConcernLwcWrapper", function() {
         $Lightning.createComponent(
              "c:communityOfConcernLwc",
-            {paramBId: "", paramSBid: "", paramCrn: "", paramUrl: paramUrl},
+            {paramBId: "13", paramSBid: "123", paramCrn: "", paramUrl: paramUrl},
              {},
              "advocateForm",
              function(cmp) {
