@@ -5,7 +5,7 @@
 <script type="text/javascript">
     $Lightning.use("c:TestAura", function() {
         $Lightning.createComponent(
-             "c:advocateBiasIncidentReportLwc",
+             "c:advocateTitleIxIncidentReportLwc",
              {},
              "advocateForm",
              function(cmp) {
