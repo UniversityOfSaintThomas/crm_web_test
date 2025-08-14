@@ -6,18 +6,18 @@
 <script type="text/javascript">
     
     const paramUrl = window.location.href;
-    
-    $Lightning.use("c:CommunityOfConcernLwcWrapper", function() {
-        $Lightning.createComponent(
-             "c:communityOfConcernLwc",
-            {paramBId: "13", paramSBid: "123", paramCrn: "", paramUrl: paramUrl},
-             {},
-             "advocateForm",
-             function(cmp) {
-                 console.log("LWC Component Created.");
-             } 
-      );
-    },
+
+    $Lightning.use("c:CommunityOfConcernLwcWrapper",
+        function () {
+            $Lightning.createComponent(
+                "c:communityOfConcernLwc",
+                {paramBId: "", paramSfId: "", paramSBid: "", paramCrn: "", paramUrl: paramUrl},
+                "communityOfConcernLwc",
+                function (cmp) {
+                    console.log("LWC Component Created.");
+                }
+            );
+        },
     "https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com"
 );
 </script>
