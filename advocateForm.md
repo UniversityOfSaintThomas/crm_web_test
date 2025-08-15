@@ -18,6 +18,6 @@
                 }
             );
         },
-    'https://energy-site-8857-dev-ed.scratch.my.salesforce-sites.com'
+    'https://energy-site-8857-dev-ed.scratch.my.site.com'
 );
 </script>
