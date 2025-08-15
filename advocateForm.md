@@ -7,7 +7,7 @@
     
     const paramUrl = window.location.href;
 
-    $Lightning.use("c:TestAura",
+    $Lightning.use("c:CommunityOfConcernLwcWrapper",
         function () {
             $Lightning.createComponent(
                 "c:communityOfConcernLwc",
