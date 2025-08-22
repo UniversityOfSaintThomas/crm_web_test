@@ -1,6 +1,6 @@
 <div id="communityOfConcernLwc"></div>
 
-<script type="text/javascript" src="https://energy-site-8857-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js"></script>
+<script type="text/javascript" src="https://customer-innovation-3723-dev-ed.scratch.my.salesforce-sites.com/lightning/lightning.out.js"></script>
 <!-- <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce-sites.com/lightning/lightning.out.js"></script> -->
 
 <script type="text/javascript">
@@ -18,6 +18,6 @@
                 }
             );
         },
-    'https://energy-site-8857-dev-ed.scratch.my.site.com'
+    'https://customer-innovation-3723-dev-ed.scratch.my.salesforce-sites.com'
 );
 </script>
