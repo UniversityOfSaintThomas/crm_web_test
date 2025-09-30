@@ -8,7 +8,7 @@
 $Lightning.use("c:requestForInformationApp", function() {
         $Lightning.createComponent(
              "c:requestForInformationForm",
-             {"rfi_controller":"RFI Controller 0295"},
+             {"rfi_controller":"RFI Controller 0350"},
              "lightning",
              function(cmp) {
                  console.log("LWC Component Created.");
