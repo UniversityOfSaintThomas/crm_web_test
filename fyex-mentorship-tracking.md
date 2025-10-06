@@ -21,6 +21,6 @@
             );
         },
     //'https://customization-customer-265-dev-ed.scratch.my.salesforce-sites.com'
-    'https://pluto-lagoon-848-dev-ed.scratch.my.site.com'
+    'https://pluto-lagoon-848-dev-ed.scratch.my.site.com/Admissions'
 );
 </script>
