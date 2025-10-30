@@ -20,6 +20,6 @@
             );
         },
     //'https://customization-customer-265-dev-ed.scratch.my.salesforce-sites.com'
-    'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
+    'https://uofstthomasmn--edastaging.sandbox.my.site.com'
 );
 </script>
