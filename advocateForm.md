@@ -13,7 +13,7 @@
         function () {
             $Lightning.createComponent(
                 "c:communityOfConcernLwc",
-                {paramBId: "", paramSfId: "", paramSBid: "", paramCrn: "", paramUrl: paramUrl},
+                {paramBId: "", paramSfId: "", paramSBid: "", paramCrn: "", paramPageType: "public", paramUrl: paramUrl},
                 "communityOfConcernLwc",
                 function (cmp) {
                     console.log("LWC Component Created.");
