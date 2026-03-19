@@ -17,7 +17,7 @@
       );
     },
     //'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
-    'https://ability-business-6804-dev-ed.scratch.my.salesforce-sites.com'
+    'https://ability-business-6804-dev-ed.scratch.my.salesforce-sites.com/'
 
 );
 </script>
