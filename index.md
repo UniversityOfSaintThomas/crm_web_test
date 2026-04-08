@@ -32,7 +32,7 @@ This site is used to test external web pages (outside of Salesforce) that host C
 
 ## Alumni Business Directory
 
-[Alumni Business Directory - STAGING](alumni-business-directory-scratchorg.md)
+[Alumni Business Directory - STAGING](alumni-business-directory-staging.md)
 
 ## Tommie Cares LWC
 
