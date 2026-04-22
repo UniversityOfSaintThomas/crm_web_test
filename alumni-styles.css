@@ -41,6 +41,17 @@
 	background-image: linear-gradient(to right, var(--dk-purple), var(--purple));
 }
 
+#alumniBusinessDirectory .slds-p-horizontal_x-small > .slds-p-horizontal_x-small {
+	padding: 0.5rem 1rem;
+	margin: 1rem 0 0;
+	background: var(--white);
+}
+
+#alumniBusinessDirectory .slds-m-around_xx-small,
+#alumniBusinessDirectory .slds-m-around--xx-small {
+	display: block;
+}
+
 #alumniBusinessDirectory .slds-wrap {
 	justify-content: space-between;
 }
