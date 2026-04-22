@@ -121,15 +121,33 @@
 #alumniBusinessDirectory .logo-container {
 	width: 100%;
 	height: auto;
-	padding: 0.5rem;
-	aspect-ratio: 16 / 9;
+	padding: 0;
+	aspect-ratio: 4 / 3;
 	background-color: var(--lt-gray);
 }
 
 #alumniBusinessDirectory .logo-container img {
 	width: 100%;
 	height: 100%;
-	object-fit: contain;
+	object-fit: cover;
+}
+
+#alumniBusinessDirectory .logo-container + .slds-p-around_small.slds-m-top_small {
+	padding: 0.5rem 1.5rem;
+}
+
+#alumniBusinessDirectory p.grid-record-business-name-display {
+	font-size: 1.25rem;
+	line-height: 1.25;
+	color: var(--dk-purple);
+	text-align: center;
+}
+
+#alumniBusinessDirectory p.grid-record-business-name-display + p {
+	text-align: center;
+	padding: 0 0 1rem;
+	margin: 0 0 1rem;
+	border-bottom: 2px solid var(--purple);
 }
 
 @media (min-width: 64em) {
