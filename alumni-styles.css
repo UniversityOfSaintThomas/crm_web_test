@@ -2,11 +2,16 @@
 	--dk-purple: #510c76;
 	--purple: #8348ad;
 	--lt-purple: #9e28b5;
-	--gray: #98999b;
+	--med-gray: #98999b;
 	--green: #4c9c2e;
+	--white: #fff;
+	--black: #222;
+	--gray: #eaeaea;
+	--lt-gray: #f8f8f8;
 }
 
 #alumniBusinessDirectory .slds-p-horizontal_x-small {
+	color: var(--white);
 	padding: 4rem;
 	border: 1px solid var(--dk-purple);
 	background-image: linear-gradient(to right, var(--dk-purple), var(--purple));
@@ -16,12 +21,14 @@
 	justify-content: space-between;
 }
 
-#alumniBusinessDirectory .slds-scope .slds-grid > .slds-col:nth-of-type(1) {
-	width: 100%;
-}
+@media (min-width: 64em) {
+	#alumniBusinessDirectory .slds-scope .slds-large-size_1-of-4 .slds-scope .slds-large-size--1-of-4 {
+		width: 100%;
+	}
 
-#alumniBusinessDirectory .slds-scope .slds-grid .slds-col:nth-of-type(2),
-#alumniBusinessDirectory .slds-scope .slds-grid .slds-col:nth-of-type(3),
-#alumniBusinessDirectory .slds-scope .slds-grid .slds-col:nth-of-type(4) {
-	width: 30%;
+	#alumniBusinessDirectory .slds-scope .slds-large-size_2-of-4 .slds-scope .slds-large-size--2-of-4,
+	#alumniBusinessDirectory .slds-scope .slds-large-size_3-of-4 .slds-scope .slds-large-size--3-of-4,
+	#alumniBusinessDirectory .slds-scope .slds-large-size_4-of-4 .slds-scope .slds-large-size--4-of-4 {
+		width: 30%;
+	}
 }
