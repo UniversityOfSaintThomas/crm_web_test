@@ -22,17 +22,17 @@
 }
 
 @media (min-width: 64em) {
-	#alumniBusinessDirectory .slds-large-size_1-of-4,
-	#alumniBusinessDirectory .slds-large-size--1-of-4 {
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4,
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4 {
 		width: 100%;
 	}
 
-	#alumniBusinessDirectory .slds-large-size_2-of-4,
-	#alumniBusinessDirectory .slds-large-size--2-of-4,
-	#alumniBusinessDirectory .slds-large-size_3-of-4,
-	#alumniBusinessDirectory .slds-large-size--3-of-4,
-	#alumniBusinessDirectory .slds-large-size_4-of-4,
-	#alumniBusinessDirectory .slds-large-size--4-of-4 {
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4:nth-of-type(2),
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4:nth-of-type(2),
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4:nth-of-type(3),
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4:nth-of-type(3),
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4:nth-of-type(4),
+	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4:nth-of-type(4) {
 		width: 30%;
 	}
 }
