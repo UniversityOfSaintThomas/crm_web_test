@@ -1,0 +1,12 @@
+:root {
+	--dk-purple: #510c76;
+	--purple: #8348ad;
+	--lt-purple: #9e28b5;
+	--gray: #98999b;
+	--green: #4c9c2e;
+}
+
+#alumniBusinessDirectory .slds-p-horizontal_x-small {
+	padding: 4rem;
+	border: 1px solid var(--dk-purple);
+}
