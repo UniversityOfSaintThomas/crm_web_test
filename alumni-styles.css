@@ -1,3 +1,12 @@
+/*
+* ex. from Google Fonts
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
 :root {
 	--dk-purple: #510c76;
 	--purple: #8348ad;
@@ -8,6 +17,15 @@
 	--black: #222;
 	--gray: #eaeaea;
 	--lt-gray: #f8f8f8;
+}
+
+#alumniBusinessDirectory {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 1.65;
+	color: var(--black);
 }
 
 #alumniBusinessDirectory .slds-p-horizontal_x-small {
@@ -22,6 +40,11 @@
 
 #alumniBusinessDirectory .slds-form-element__label {
 	color: var(--white);
+}
+
+#alumniBusinessDirectory .slds-input {
+	padding: 0.5rem;
+	border-radius: 0;
 }
 
 #alumniBusinessDirectory .slds-input__icon.slds-input__icon_left.slds-icon-text-default {
@@ -41,6 +64,6 @@
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4:nth-of-type(3),
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4:nth-of-type(4),
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4:nth-of-type(4) {
-		width: 30%;
+		width: 32%;
 	}
 }
