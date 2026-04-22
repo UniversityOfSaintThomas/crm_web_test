@@ -11,14 +11,22 @@
 }
 
 #alumniBusinessDirectory .slds-p-horizontal_x-small {
-	color: var(--white);
-	padding: 4rem;
+	padding: 2rem;
 	border: 1px solid var(--dk-purple);
 	background-image: linear-gradient(to right, var(--dk-purple), var(--purple));
 }
 
 #alumniBusinessDirectory .slds-wrap {
 	justify-content: space-between;
+}
+
+#alumniBusinessDirectory .slds-form-element__label {
+	color: var(--white);
+}
+
+#alumniBusinessDirectory .slds-input__icon.slds-input__icon_left.slds-icon-text-default {
+	left: unset;
+	right: 0;
 }
 
 @media (min-width: 64em) {
