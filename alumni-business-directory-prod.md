@@ -1,3 +1,5 @@
+<!-- <link rel="stylesheet" href="{{ '/alumni-styles.css' | relative_url }}"> -->
+
 <div id="alumniBusinessDirectory"></div>
 
 <script type="text/javascript" src="https://uofstthomasmn.my.salesforce-sites.com/lightning/lightning.out.js"></script>
