@@ -52,6 +52,10 @@
 
 #alumniBusinessDirectory .slds-input,
 #alumniBusinessDirectory .slds-input_faux {
+	font-family: "Lora", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 	padding: 0.5rem;
 	border-radius: 0;
 }
