@@ -18,10 +18,11 @@
 	--dk-purple: #510c76;
 	--purple: #8348ad;
 	--lt-purple: #9e28b5;
-	--med-gray: #98999b;
 	--green: #4c9c2e;
 	--white: #fff;
 	--black: #222;
+	--dk-gray: #555;
+	--med-gray: #98999b;
 	--gray: #eaeaea;
 	--lt-gray: #f8f8f8;
 }
@@ -67,6 +68,7 @@
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
+	color: var(--dk-gray);
 	padding: 0.5rem;
 	border-radius: 0;
 }
@@ -76,6 +78,7 @@
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
+	color: var(--dk-gray);
 	text-transform: capitalize;
 }
 
