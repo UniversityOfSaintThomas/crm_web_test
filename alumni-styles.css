@@ -55,6 +55,7 @@
 
 #alumniBusinessDirectory .slds-wrap {
 	justify-content: space-between;
+	align-items: stretch;
 }
 
 #alumniBusinessDirectory .slds-form-element__label {
@@ -107,10 +108,16 @@
 }
 
 #alumniBusinessDirectory .grid-record-display {
+	text-align: left;
 	height: 100%;
 	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 10%);
 	border-bottom: 3px solid var(--green);
 }
+
+/* #alumniBusinessDirectory .slds-text-align_center,
+#alumniBusinessDirectory .slds-text-align--center {
+	text-align: left;
+} */
 
 #alumniBusinessDirectory .logo-container {
 	width: 100%;
