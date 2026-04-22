@@ -17,18 +17,22 @@
 	background-image: linear-gradient(to right, var(--dk-purple), var(--purple));
 }
 
-#alumniBusinessDirectory .slds-scope .slds-wrap {
+#alumniBusinessDirectory .slds-wrap {
 	justify-content: space-between;
 }
 
 @media (min-width: 64em) {
-	#alumniBusinessDirectory .slds-scope .slds-large-size_1-of-4 .slds-scope .slds-large-size--1-of-4 {
+	#alumniBusinessDirectory .slds-large-size_1-of-4,
+	#alumniBusinessDirectory .slds-large-size--1-of-4 {
 		width: 100%;
 	}
 
-	#alumniBusinessDirectory .slds-scope .slds-large-size_2-of-4 .slds-scope .slds-large-size--2-of-4,
-	#alumniBusinessDirectory .slds-scope .slds-large-size_3-of-4 .slds-scope .slds-large-size--3-of-4,
-	#alumniBusinessDirectory .slds-scope .slds-large-size_4-of-4 .slds-scope .slds-large-size--4-of-4 {
+	#alumniBusinessDirectory .slds-large-size_2-of-4,
+	#alumniBusinessDirectory .slds-large-size--2-of-4,
+	#alumniBusinessDirectory .slds-large-size_3-of-4,
+	#alumniBusinessDirectory .slds-large-size--3-of-4,
+	#alumniBusinessDirectory .slds-large-size_4-of-4,
+	#alumniBusinessDirectory .slds-large-size--4-of-4 {
 		width: 30%;
 	}
 }
