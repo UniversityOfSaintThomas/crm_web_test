@@ -216,12 +216,47 @@
 
 #alumniBusinessDirectory .slds-button.slds-button_icon.slds-button_icon-bare {
 	border: none;
-	padding: 0;
+	padding: 0.5rem;
+}
+
+#alumniBusinessDirectory .slds-modal__content .slds-col.slds-size_1-of-2.slds-align_absolute-center:has(img) {
+	width: 100%;
+	height: auto;
+	margin: 1rem;
+	border-radius: 50%;
+	overflow: hidden;
+	aspect-ratio: 1;
+	border: 3px solid var(--med-gray);
+}
+
+#alumniBusinessDirectory .slds-modal__content .slds-border_bottom,
+#alumniBusinessDirectory .slds-modal__content .slds-border--bottom {
+	border-bottom: none;
+}
+
+#alumniBusinessDirectory .slds-modal__content .slds-col.slds-size_1-of-2.slds-align_absolute-center img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#alumniBusinessDirectory .slds-modal__content .logo-container {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+}
+
+#alumniBusinessDirectory .slds-modal__content .logo-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin: 1rem 0 0;
 }
 
 #alumniBusinessDirectory .slds-modal__footer {
 	color: var(--white);
 	background-color: var(--purple);
+	border-top: none;
 }
 
 @media (min-width: 48em) {
