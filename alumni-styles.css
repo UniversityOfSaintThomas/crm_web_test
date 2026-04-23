@@ -214,6 +214,11 @@
 	background-color: var(--dk-purple);
 }
 
+#alumniBusinessDirectory .slds-scope .slds-modal .slds-modal__title {
+	font-weight: 600;
+	color: var(--dk-purple);
+}
+
 #alumniBusinessDirectory .slds-button.slds-button_icon.slds-button_icon-bare {
 	border: none;
 	padding: 0.5rem;
