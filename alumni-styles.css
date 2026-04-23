@@ -220,13 +220,13 @@
 }
 
 #alumniBusinessDirectory .slds-modal__content .slds-col.slds-size_1-of-2.slds-align_absolute-center:has(img) {
-	width: 100%;
+	width: 150px;
 	height: auto;
 	margin: 1rem;
 	border-radius: 50%;
 	overflow: hidden;
 	aspect-ratio: 1;
-	border: 3px solid var(--med-gray);
+	border: 3px solid var(--gray);
 }
 
 #alumniBusinessDirectory .slds-modal__content .slds-border_bottom,
