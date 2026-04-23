@@ -187,6 +187,7 @@
 }
 
 #alumniBusinessDirectory p.slds-m-top_xx-small + p.slds-m-top_xx-small {
+	font-size: 1rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
@@ -202,7 +203,9 @@
 	font-weight: 600;
 	color: var(--lt-purple);
 	background-color: transparent;
-	transition: background-color 300ms ease-in-out;
+	transition:
+		color 300ms ease-in-out,
+		background-color 300ms ease-in-out;
 }
 
 #alumniBusinessDirectory .slds-button:focus,
