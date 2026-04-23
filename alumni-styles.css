@@ -163,11 +163,13 @@
 }
 
 #alumniBusinessDirectory p.slds-m-top_small {
+	font-size: 0.9rem;
 	line-height: 1.5;
 }
 
 #alumniBusinessDirectory .slds-text-color_weak,
 #alumniBusinessDirectory .slds-text-color--weak {
+	font-size: 0.9rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
