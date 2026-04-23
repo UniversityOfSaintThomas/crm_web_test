@@ -147,11 +147,29 @@
 
 #alumniBusinessDirectory p.grid-record-business-name-display + p {
 	font-size: 0.9rem;
-	font-weight: 500;
+	font-weight: 600;
+	letter-spacing: 0.25px;
 	text-align: center;
 	padding: 0 0 1rem;
 	margin: 0 0 1rem;
 	border-bottom: 2px solid var(--purple);
+}
+
+#alumniBusinessDirectory p.grid-record-business-name-display ~ p.slds-m-top_xx-small {
+	font-size: 1.1rem;
+	line-height: 1.25;
+	color: var(--dk-purple);
+}
+
+#alumniBusinessDirectory p.slds-m-top_small {
+	line-height: 1.25;
+}
+
+#alumniBusinessDirectory .slds-text-color_weak,
+#alumniBusinessDirectory .slds-text-color--weak {
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+	color: var(--lt-purple);
 }
 
 @media (min-width: 64em) {
