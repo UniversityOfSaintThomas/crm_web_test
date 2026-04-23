@@ -182,6 +182,12 @@
 	color: var(--lt-purple);
 }
 
+#alumniBusinessDirectory p.slds-m-top_x-small + p.slds-m-top_xx-small {
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: var(--black);
+}
+
 @media (min-width: 64em) {
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4,
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4 {
