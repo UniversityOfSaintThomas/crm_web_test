@@ -214,6 +214,23 @@
 	background-color: var(--dk-purple);
 }
 
+#alumniBusinessDirectory .slds-button.slds-button_icon.slds-button_icon-bare {
+	border: none;
+	padding: 0;
+}
+
+#alumniBusinessDirectory .slds-modal__footer {
+	color: var(--white);
+	background-color: var(--purple);
+}
+
+@media (min-width: 48em) {
+	#alumniBusinessDirectory .slds-modal__container {
+		width: 70%;
+		max-width: 55em;
+	}
+}
+
 @media (min-width: 64em) {
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4,
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4 {
