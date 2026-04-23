@@ -186,6 +186,31 @@
 	color: var(--black);
 }
 
+#alumniBusinessDirectory p.slds-m-top_xx-small + p.slds-m-top_xx-small {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: var(--lt-purple);
+}
+
+#alumniBusinessDirectory .slds-button {
+	padding: 0.25rem 1.5rem;
+	border-radius: 50vh;
+	border: 2px solid var(--dk-purple);
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	color: var(--lt-purple);
+	background-color: transparent;
+	transition: background-color 300ms ease-in-out;
+}
+
+#alumniBusinessDirectory .slds-button:focus,
+#alumniBusinessDirectory .slds-button:hover {
+	color: var(--white);
+	background-color: var(--dk-purple);
+}
+
 @media (min-width: 64em) {
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size_1-of-4,
 	#alumniBusinessDirectory .slds-grid.slds-wrap .slds-large-size--1-of-4 {
