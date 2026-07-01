@@ -24,7 +24,12 @@
 	margin: 0 1rem;
 	padding: 2rem;
 	border: 1px solid var(--dk-purple);
-	background-image: linear-gradient(to right, var(--dk-purple), var(--purple));
+	background-image: linear-gradient(to right, var(--dk-purple), var(--purple)), url("/svg/pattern1.svg");
+	background-repeat: repeat;
+	background-size: cover, 50px;
+	background-position:
+		center,
+		top left;
 }
 
 #alumniBusinessDirectory .slds-p-horizontal_x-small > .slds-p-horizontal_x-small {
