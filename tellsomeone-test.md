@@ -1,7 +1,7 @@
 <div id="tellsomeone"></div>
 
 <!--<script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce.com/lightning/lightning.out.js"></script>-->
-<script type="text/javascript" src="https://playground-americano-4563-dev-ed.scratch.my.site.com/lightning.out.js"></script>
+<script type="text/javascript" src="https://playground-americano-4563-dev-ed.scratch.my.site.com/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
 
