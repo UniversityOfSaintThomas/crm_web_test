@@ -137,7 +137,8 @@
 	padding: 0.5rem 1.5rem;
 }
 
-#alumniBusinessDirectory p.ust-grid-record-business-name-display {
+#alumniBusinessDirectory p.ust-grid-record-business-name-display,
+#alumniBusinessDirectory p.ust-modal-first-name-last-name-degree {
 	font-size: 1.25rem;
 	line-height: 1.25;
 	color: var(--dk-purple);
@@ -215,7 +216,7 @@
 	background-color: var(--dk-purple);
 }
 
-#alumniBusinessDirectory .slds-scope .slds-modal .slds-modal__title {
+#alumniBusinessDirectory .ust-modal-company-name {
 	font-weight: 600;
 	color: var(--dk-purple);
 }
@@ -223,6 +224,11 @@
 #alumniBusinessDirectory .slds-button.slds-button_icon.slds-button_icon-bare {
 	border: none;
 	padding: 0.5rem;
+}
+
+#alumniBusinessDirectory .slds-modal__content .slds-wrap {
+	max-width: 90%;
+	margin: 0 auto;
 }
 
 #alumniBusinessDirectory .slds-modal__content .slds-col.slds-size_1-of-2.slds-align_absolute-center:has(img) {
