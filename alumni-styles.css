@@ -137,7 +137,7 @@
 	padding: 0.5rem 1.5rem;
 }
 
-#alumniBusinessDirectory p.grid-record-business-name-display {
+#alumniBusinessDirectory p.ust-grid-record-business-name-display {
 	font-size: 1.25rem;
 	line-height: 1.25;
 	color: var(--dk-purple);
@@ -145,7 +145,7 @@
 	margin: 0 0 0.5rem;
 }
 
-#alumniBusinessDirectory p.grid-record-business-name-display + p {
+#alumniBusinessDirectory p.ust-grid-record-business-name-display + p {
 	font-size: 0.9rem;
 	font-weight: 600;
 	letter-spacing: 0.25px;
@@ -155,27 +155,28 @@
 	border-bottom: 2px solid var(--purple);
 }
 
-#alumniBusinessDirectory p.grid-record-business-name-display ~ p.slds-m-top_xx-small {
+#alumniBusinessDirectory p.ust-grid-record-business-name-display ~ p.slds-m-top_xx-small {
 	font-size: 1.15rem;
 	font-weight: 600;
 	line-height: 1.5;
 	color: var(--dk-purple);
 }
 
-#alumniBusinessDirectory p.slds-m-top_small {
+#alumniBusinessDirectory .ust-grid-record-company-description {
 	line-height: 1.5;
 }
 
-#alumniBusinessDirectory .slds-text-color_weak,
-#alumniBusinessDirectory .slds-text-color--weak {
+#alumniBusinessDirectory .ust-grid-record-company-industry span,
+#alumniBusinessDirectory .ust-grid-record-company-special-interest span,
+#alumniBusinessDirectory .ust-grid-record-st-thomas-discount {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	color: var(--lt-purple);
 }
 
-#alumniBusinessDirectory .slds-text-color_weak::after,
-#alumniBusinessDirectory .slds-text-color--weak::after {
+#alumniBusinessDirectory .ust-grid-record-company-industry span::after,
+#alumniBusinessDirectory .ust-grid-record-company-special-interest span::after {
 	content: ": ";
 	color: var(--lt-purple);
 }
