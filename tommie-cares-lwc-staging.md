@@ -1,4 +1,4 @@
-<div id="tommieCaresLwc"></div>
+<div id="tommieAlertsLightingOut"></div>
 
 <script type="text/javascript" src="https://uofstthomasmn--edastaging.sandbox.my.salesforce.com/lightning/lightning.out.js"></script>
 
@@ -10,13 +10,13 @@
     function() {
         $Lightning.createComponent(
              "c:tommieCaresLwc",
-             {paramBId: "100819159", paramSBid: "101319412", paramCrn: "40715", paramUrl: paramUrl},
+             {paramBId: "", paramSBid: "", paramCrn: "", paramUrl: paramUrl},
              "tommieCaresLwc",
              function(cmp) {
                  console.log("LWC Component Created.");
              } 
       );
     },
-    'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
+    'https://uofstthomasmn--edastaging.sandbox.my.site.com/CurrentStudents'
 );
 </script>
