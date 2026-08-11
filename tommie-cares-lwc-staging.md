@@ -9,9 +9,9 @@
     $Lightning.use("c:tommieAlertsLwcWrapper", 
     function() {
         $Lightning.createComponent(
-             "c:tommieAlertsLightingOut",
+             "c:tommieCaresLwcv2",
              {paramBId: "", paramSBid: "", paramCrn: "", paramUrl: paramUrl},
-             "tommieCaresLwcv2",
+             "tommieAlertsLightingOut",
              function(cmp) {
                  console.log("LWC Component Created.");
              } 
