@@ -6,7 +6,7 @@
 
     const paramUrl = window.location.href;
 
-    $Lightning.use("c:TommieCaresLwcWrapper", 
+    $Lightning.use("c:tommieAlertsLwcWrapper", 
     function() {
         $Lightning.createComponent(
              "c:tommieAlertsLightingOut",
