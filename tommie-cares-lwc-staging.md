@@ -9,7 +9,7 @@
     $Lightning.use("c:TommieCaresLwcWrapper", 
     function() {
         $Lightning.createComponent(
-             "c:tommieCaresLwc",
+             "c:tommieAlertsLightingOut",
              {paramBId: "", paramSBid: "", paramCrn: "", paramUrl: paramUrl},
              "tommieCaresLwc",
              function(cmp) {
