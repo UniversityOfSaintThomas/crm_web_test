@@ -18,7 +18,7 @@
              } 
       );
     },
-    'https://uofstthomasmn--edastaging.sandbox.my.site.com/Admissions'
+    'https://uofstthomasmn--edastaging.sandbox.my.site.com/CurrentStudents'
     //'https://playground-americano-4563-dev-ed.scratch.my.site.com/Admissions'
 );
 </script>
