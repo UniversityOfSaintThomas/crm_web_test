@@ -16,7 +16,7 @@
              } 
       );
     },
-    'https://uofstthomasmn.sandbox.my.site.com/CurrentStudents'
+    'https://uofstthomasmn.my.site.com/CurrentStudents'
 
 );
 </script>
