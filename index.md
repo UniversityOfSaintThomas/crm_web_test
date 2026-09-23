@@ -50,3 +50,5 @@ This site is used to test external web pages (outside of Salesforce) that host C
 
 [Tell Someone - PROD](tellsomeone-prod.md)
 
+[Tell Someone - STAGING](tellsomeone-staging.md)
+
