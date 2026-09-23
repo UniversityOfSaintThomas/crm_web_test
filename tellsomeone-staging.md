@@ -17,3 +17,5 @@
       );
     },
     'https://uofstthomasmn--edastaging.sandbox.my.site.com/CurrentStudents'
+);
+</script>
