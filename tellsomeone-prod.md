@@ -9,7 +9,7 @@
     function() {
         $Lightning.createComponent(
              "c:tellSomeoneLwc",
-             {paramBId: "", paramSBid: "", paramPageType: "public", paramUrl: paramUrl},
+             {paramBId: "", paramSBid: "", paramPageType: "", paramUrl: paramUrl},
              "tellsomeonelwc",
              function(cmp) {
                  console.log("LWC Component Created.");
