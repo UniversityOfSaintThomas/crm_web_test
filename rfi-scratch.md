@@ -7,7 +7,7 @@
 <script type="text/javascript">
 $Lightning.use("c:requestForInformationApp", function() {
         $Lightning.createComponent(
-             "c:requestForInformationForm",
+             "c:rfiForm",
              {"rfi_controller":"RFI Controller 0001"},
              "lightning",
              function(cmp) {
