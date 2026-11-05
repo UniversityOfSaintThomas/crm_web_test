@@ -2,7 +2,7 @@
 
 <div id="lightning"></div>
 
-<script type="text/javascript" src="https://platform-customer-73312-dev-ed.scratch.my.site.com/Admissions/lightning/lightning.out.js"></script>
+<script type="text/javascript" src="https://americano-miso-8449-dev-ed.scratch.my.site.com/Admissions/lightning/lightning.out.js"></script>
 
 <script type="text/javascript">
 $Lightning.use("c:requestForInformationApp", function() {
@@ -15,6 +15,6 @@ $Lightning.use("c:requestForInformationApp", function() {
              } 
       );
     },
-    'https://platform-customer-73312-dev-ed.scratch.my.site.com/Admissions'
+    'https://americano-miso-8449-dev-ed.scratch.my.site.com/Admissions'
 );
 </script>
