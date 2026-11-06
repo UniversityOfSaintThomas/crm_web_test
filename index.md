@@ -11,6 +11,8 @@ This site is used to test external web pages (outside of Salesforce) that host C
 
 [RFI - Staging](rfi-test-staging)
 
+[RFI - Staging (new rfi)](rfi-staging-new.md)
+
 [RFI - Prod](rfi-production-test)
 
 [RFI - Staging 2](rfi-staging_test2.md)
